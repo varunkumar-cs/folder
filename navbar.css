@@ -233,6 +233,9 @@ table,tr,th,td{
   .bulb{
     width:100%;
   }
+  .inter{
+    display:none;
+  }
   .engine{
     color:white;
     font-size:medium;

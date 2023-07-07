@@ -78,6 +78,10 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
 }
+iframe{
+  position: relative;
+  
+}
 h1{
   font-family: 'Alkatra', cursive;
 }
@@ -121,7 +125,22 @@ h4,h5{
   word-spacing: 2px;
   margin-right: 2%;
 }
-
+.video{
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+ background-image:url(https://images.unsplash.com/photo-1688582866340-6fa68a6a968a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1N3x8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+}
+.video_1{
+  display:none;
+}
+.video_text{
+ color:white;
+ padding: 5%;
+ margin:15%;
+ font-weight: bold;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 heading{
   font-size:200%;
   font-weight: bold;
@@ -249,5 +268,15 @@ table,tr,th,td{
     padding:2px;
     letter-spacing: 1px;
     word-spacing: 2px;
+  }
+  .video{
+    display: block;
+  }
+  .video_text{
+     display: none;
+  }
+  .video_1{
+    display: block;
+    color:white;
   }
 }

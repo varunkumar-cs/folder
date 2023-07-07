@@ -5,7 +5,7 @@
   margin-left: 2px;
   text-decoration: none;
   font-size: 40px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Caprasimo', cursive;
   letter-spacing: normal;
 }
 .navbar-brand:focus, .navbar-brand:hover {
@@ -86,12 +86,12 @@ h4,h5{
   font-family: 'Alkatra', cursive;
 }
 .bulb{
-  margin-top: 2%;
   width:70%;
   padding:4%;
   color: white;
   font-size: large;
   word-spacing: 4px;
+  font-weight: bold;
 }
 .electrify{
   background-size:cover;
@@ -228,10 +228,14 @@ table,tr,th,td{
   .matter{
     background-size: cover;
     background-repeat: no-repeat;
-     background-image: url(https://www.patlabelsonline.co.uk/blog/wp-content/uploads/2015/08/shutterstock_96185378.jpg);
+     background-image: url(https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGRhcmslMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60);
   }
   .bulb{
+    margin:0;
+    padding:2px;
     width:100%;
+    color:white;
+    font-weight: bold;
   }
   .inter{
     display:none;

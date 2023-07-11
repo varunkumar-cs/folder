@@ -4,7 +4,7 @@
   margin-left: 2px;
   text-decoration: none;
   font-size: 40px;
-  font-family: 'Caprasimo', cursive; 
+  font-family: 'Lora', serif;
   letter-spacing: normal;
 }
 .navbar-brand:focus, .navbar-brand:hover {
@@ -38,7 +38,7 @@ main{
 heading{
   font-size:200%;
   color: white;
-  font-weight: bold;
+  font-weight:normal;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   letter-spacing: 4px;
 }

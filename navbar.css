@@ -5,7 +5,7 @@
   margin-left: 2px;
   text-decoration: none;
   font-size: 40px;
-  font-family: 'Caprasimo', cursive;
+  font-family: 'Lora', serif;
   letter-spacing: normal;
 }
 .navbar-brand:focus, .navbar-brand:hover {
@@ -55,6 +55,7 @@
 .nav-link{
   font-size:125%;
   color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .nav-item dropdown{
   color: white;
@@ -62,6 +63,8 @@
 }
 
 .nav-link:hover{
+  font-size: 130%;
+  font-weight: bold;
   color: rgb(255, 255, 255);
   transition: 0.2s text-decoration ease-in;
   text-decoration:underline 2px solid rgb(11, 161, 51);
@@ -101,7 +104,7 @@ h4,h5{
   background-size:cover;
   background-position-x: left;
   background-position-y: center;
-  background-image: url("teachers-images/electrify.jpg");
+  background-image: url(teachers-images/electrify.jpg);
 }
 .container{
   display: flex;
@@ -129,7 +132,7 @@ h4,h5{
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
- background-image:url(https://images.unsplash.com/photo-1688582866340-6fa68a6a968a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1N3x8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+ background-image:url(https://images.unsplash.com/photo-1509114397022-ed747cca3f65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80);
 }
 .video_1{
   display:none;
@@ -143,7 +146,7 @@ h4,h5{
 }
 heading{
   font-size:200%;
-  font-weight: bold;
+  font-weight:normal;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   letter-spacing: 4px;
 }

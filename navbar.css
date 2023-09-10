@@ -19,12 +19,15 @@
   width: 1.5em;
   height: 1.5em;
   vertical-align: middle;
-  background-image: url(images/controls.png);
+  background-image: url(images/menu.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+  color:white;
 }
-
+.wide{
+  height: 600px;
+}
 .bg{
   background-color:transparent;
 }
@@ -37,7 +40,6 @@
   padding-left:5%;
   padding-right:5%;
 }
-
 .dropdown-menu{
   background-color:transparent;
   color: white;
@@ -102,9 +104,9 @@ h4,h5{
 }
 .electrify{
   background-size:cover;
-  background-position-x: left;
+  background-position-x: center;
   background-position-y: center;
-  background-image: url(teachers-images/electrify.jpg);
+  background-image: url(https://images.unsplash.com/photo-1693656963484-e9020d804252?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1827&q=80);
 }
 .container{
   display: flex;
@@ -140,7 +142,7 @@ h4,h5{
 .video_text{
  color:white;
  padding: 5%;
- margin:15%;
+ margin:10%;
  font-weight: bold;
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -235,6 +237,10 @@ table,tr,th,td{
     font-size:15px;
     width:fit-content;
   }
+  .wide{
+    height:250px;
+  }
+ 
 }
 @media all and (max-width:400px){
   .card-title{
@@ -245,6 +251,11 @@ table,tr,th,td{
     font-size:15px;
     width:fit-content;
   }
+  .wide{
+    height:300px
+  }
+ 
+
 }
 @media all and (max-width:1000px){
   .matter{
@@ -282,4 +293,9 @@ table,tr,th,td{
     display: block;
     color:white;
   }
+  .wide{
+    height:400px;
+  }
+  
 }
+

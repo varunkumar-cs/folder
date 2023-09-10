@@ -1,4 +1,7 @@
 /*logo*/
+.attender-1{
+  color: transparent;
+}
 .navbar-brand{
   color: white;
   margin-left: 2px;
@@ -18,7 +21,7 @@
   width: 1.5em;
   height: 1.5em;
   vertical-align: middle;
-  background-image:url(images/controls.png);
+  background-image:url(images/menu.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -157,6 +160,7 @@ h1{
     font-size:15px;
     width:fit-content;
   }
+  
 }
 @media all and (max-width:400px){
   .card-title{
@@ -167,4 +171,11 @@ h1{
     font-size:15px;
     width:fit-content;
   }
+  
+}
+@media all and (max-width:990px) {
+  .attender{
+    display: none;
+  }
+  
 }

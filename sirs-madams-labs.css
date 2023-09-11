@@ -3,7 +3,7 @@
   color: transparent;
 }
 .navbar-brand{
-  color: rgb(255, 255, 255);
+  color: rgb(9, 9, 9);
   margin-left: 2px;
   text-decoration: none;
   font-size: 40px;
@@ -11,10 +11,10 @@
   letter-spacing: normal;
 }
 .navbar-brand:focus, .navbar-brand:hover {
-  color: rgb(255 248 248);
+  color: rgb(0, 0, 0);
 }
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-  color: rgb(255 251 251);
+  color: rgb(1, 1, 1);
 }
 .navbar-toggler-icon {
   display: inline-block;

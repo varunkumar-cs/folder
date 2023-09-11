@@ -1,7 +1,7 @@
 /*logo*/
 
 .navbar-brand{
-  color: rgb(255, 255, 255);
+  color: rgb(20, 20, 20);
   margin-left: 2px;
   text-decoration: none;
   font-size: 40px;
@@ -9,7 +9,7 @@
   letter-spacing: normal;
 }
 .navbar-brand:focus, .navbar-brand:hover {
-  color: rgb(255 248 248);
+  color: rgb(19, 19, 19);
 }
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
   color: rgb(255 251 251);
@@ -271,7 +271,7 @@ table,tr,th,td{
     display:none;
   }
   .engine{
-    color:white;
+    color:rgb(0, 0, 0);
     font-size:medium;
     font-family:'Times New Roman', Times, serif;
     font-weight: bold;

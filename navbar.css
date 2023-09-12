@@ -25,39 +25,58 @@
   background-size: 100%;
   color:white;
 }
+
 .wide{
   height: 600px;
 }
+
 .bg{
   background-color:transparent;
 }
+
 .navbar-brand{
   color: rgb(16, 15, 15);
   list-style: none;
 }
+
 /*navbar*/
+
 .nav-item{
   padding-left:5%;
   padding-right:5%;
 }
+
 .dropdown-menu{
   background-color:transparent;
   color: white;
 }
+
 .dropdown-item{
   color: white;
 }
+
 .dropdown-item:hover{
   color:white;
   background-color:transparent;
   text-decoration: 2px underline solid rgb(15, 185, 154);
-
 }
 
 .nav-link{
   font-size:125%;
   color: white;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav-link::before
+{
+  content: '';
+  height: 2px;
+  position: absolute;
+  width: 0%;
+}
+.nav-link :hover:after
+{
+  transition: 2s;
+  width: 100%;
 }
 .nav-item dropdown{
   color: white;
@@ -97,6 +116,7 @@ h4,h5{
   font-size: large;
   word-spacing: 4px;
   font-weight: bold;
+  text-align: justify;
 }
 .electrify{
   background-size:cover;
@@ -123,6 +143,7 @@ h4,h5{
   letter-spacing: 1px;
   word-spacing: 2px;
   margin-right: 2%;
+  text-align: justify;
 }
 .video{
   background-repeat: no-repeat;
@@ -141,6 +162,7 @@ h4,h5{
  margin:10%;
  font-weight: bold;
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ text-align: justify;
 }
 heading{
   font-size:200%;
@@ -213,6 +235,7 @@ table,tr,th,td{
     margin-left: 5%;
     padding:2px;
     font-size:small;
+    text-align: justify;
   }
   .imager{
     width:0%;
@@ -279,6 +302,7 @@ table,tr,th,td{
     padding:2px;
     letter-spacing: 1px;
     word-spacing: 2px;
+    text-align: justify;
   }
   .video{
     display: block;

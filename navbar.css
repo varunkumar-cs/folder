@@ -1,4 +1,12 @@
 /*logo*/
+/* navigation bar and menu */
+
+/* note:
+<div class="department"><!-- div of main paragraph-->
+        <p class="engine"><!--main paragraph-->
+<div class="matter d-block w-100"><!-- div of 2nd paragraph-->
+        <p class="bulb"><!--2nd paragraph about eee-->
+<p class="video_text"><!--responsive text for video text--> */
 
 .navbar-brand{
   color: rgb(20, 20, 20);
@@ -109,6 +117,8 @@ h1{
 h4,h5{
   font-family: 'Alkatra', cursive;
 }
+
+/* 2nd paragraph */
 .bulb{
   width:70%;
   padding:4%;
@@ -118,6 +128,7 @@ h4,h5{
   font-weight: bold;
   text-align: justify;
 }
+/* about background image of first */
 .electrify{
   background-size:cover;
   background-image: url(https://images.pexels.com/photos/2909261/pexels-photo-2909261.jpeg?auto=compress&cs=tinysrgb&w=600);
@@ -127,12 +138,14 @@ h4,h5{
   justify-content: space-around;
   padding:5%;
 }
+/* div of 2nd paragraph */
 .matter{
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y:center;
   background-image: url(https://images.unsplash.com/photo-1518552620125-dfc3c2a8e974?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGxpZ2h0JTIwYnVsYnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1500&h=20S0);
 }
+/* main paragraph */
 .engine{
   color:rgb(0, 0, 0);
   font-size: large;
@@ -153,6 +166,8 @@ h4,h5{
   display: flex;
  background-image:url(https://images.pexels.com/photos/3881283/pexels-photo-3881283.jpeg?auto=compress&cs=tinysrgb&w=600);
 }
+
+/* about youtube video */
 .video_1{
   display:none;
 }
@@ -213,18 +228,6 @@ heading{
   z-index:1;
   box-shadow: 2px 2px 2px white;
 }
-table,tr,th,td{
-  border:2px solid rgb(255, 255, 255);
-  color:white;
-  width: fit-content;
-  text-align:center;
-}
-.abcd{
-  text-align: center;
-  color: white;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
 /*media*/
 /*for the cards*/
 @media all and (max-width:990px){
@@ -277,6 +280,7 @@ table,tr,th,td{
 
 }
 @media all and (max-width:1000px){
+
   .matter{
     background-size:cover;
     background-position-y:top;

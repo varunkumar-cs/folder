@@ -13,7 +13,7 @@
   margin-left: 2px;
   text-decoration: none;
   font-size: 40px;
-  font-family: 'Lora', serif;
+  font-family: 'Carter One', cursive;
   letter-spacing: normal;
 }
 .navbar-brand:focus, .navbar-brand:hover {
@@ -120,7 +120,7 @@ h4,h5{
 
 /* 2nd paragraph */
 .bulb{
-  width:70%;
+  width:68%;
   padding:4%;
   color: white;
   font-size: large;

@@ -3,15 +3,15 @@
   color: transparent;
 }
 .navbar-brand{
-  color: rgb(9, 9, 9);
+  color: rgb(255, 255, 255);
   margin-left: 2px;
   text-decoration: none;
   font-size: 40px;
-  font-family: 'Lora', serif;
+  font-family: 'Carter One', cursive;
   letter-spacing: normal;
 }
 .navbar-brand:focus, .navbar-brand:hover {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
   color: rgb(255, 255, 255);
